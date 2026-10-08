@@ -1,0 +1,67 @@
+site_name: AI Infra 知识库
+site_url: https://jiayinzhang271-lab.github.io/AI_Infra/
+site_description: 记录 AI 基础设施相关学习与思考
+site_author: jiayinzhang
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+repo_url: https://github.com/jiayinzhang271-lab/AI_Infra
+repo_name: jiayinzhang271-lab/AI_Infra
+
+validation:
+  links:
+    not_found: warn
+    anchors: warn
+
+nav:
+  - 首页: index.md
+  - 工具使用:
+      - 学习导航: tools/index.md
+      - Markdown 学习笔记: tools/markdown.md
+  - AI 计算体系:
+      - 学习导航: ai-computing/index.md
+  - 机器学习理论:
+      - 学习导航: ml-theory/index.md
+  - Transformer:
+      - 学习导航: transformer/index.md
+  - 推理框架:
+      - 学习导航: inference-frameworks/index.md
+  - 模型部署:
+      - 学习导航: model-deployment/index.md
+  - 学习与维护:
+      - 学习路线: guides/learning-roadmap.md
+      - 仓库组织: guides/repository-structure.md
+      - 写作与发布: guides/workflow.md
+      - 关于我: aboutme.md
+0

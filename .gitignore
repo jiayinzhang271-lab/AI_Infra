@@ -1,0 +1,19 @@
+.venv/
+venv/
+site/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+# 大型模型和本地数据不提交到学习仓库
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+data/
+outputs/

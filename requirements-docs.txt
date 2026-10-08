@@ -1,0 +1,3 @@
+# 与现有本地环境保持一致
+mkdocs==1.6.1
+mkdocs-material==9.7.7
